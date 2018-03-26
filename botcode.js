@@ -451,6 +451,63 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
 
 
+
+
+	/*  Secret Module   */
+	/* Credit goes to   */
+	/* Jake Marchese    */
+
+
+	     case 'wdjl':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'This is the second level of the secret quest. Things only get harder from here. The clue for this next command is as follows, ACRONYM IS THE COMMAND'
+			
+		});
+		break;
+	     case 'whodoesjakelike':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'Now you know the object of this mission, this is a guarded secret, be prepaired to use your brain to figure this out. Next clue is 2+2=4, 4-1=3 + 2nd command'
+			
+		});
+		break;
+	     case 'quickmaffswdjl':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'First key is i. Next clue is "all in c" + 2nd command'
+			
+		});
+		break;
+	     case 'allstarwdjl':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'Second key is r. Next clue is "are two special letters, infact it may even be a word" + 2nd command'
+			
+		});
+		break;
+	     case 'towdjl':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'Third key is to. You have collected the keys, so now you must assemble them into the answer. These keys answer a questions which you have asked long ago. It may be in plain sight.'
+			
+		});
+		break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/* FUNCTION MODULE  */
 	/* Credit goes to   */
 	/* Jake Marchese    */
@@ -473,14 +530,14 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 	    case 'helpmeme':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'List of Meme Commands:\n1. clinicalautism\n2. mentalretardation\n3. yas\n4. careples\n5. tendies\n6. boi\n7. roastme\n8. dad?\n9. stop\n10. GibbLubb/GL\n11. oof\n12. omae'
+                    message: 'List of Meme Commands:\n1. childrensprogam\n2. findmylodge\n3. yas\n4. careples\n5. tendies\n6. boi\n7. roastme\n8. dad?\n9. stop\n10. GibbLubb/GL\n11. oof\n12. omae'
                 });
 	        break;
 	
 	    case 'helpuse':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'List of Useful Commands:\n1. HelpMe\n2. bye\n3. hi'
+                    message: 'List of Useful Commands:\n1. HelpMe\n2. bye\n3. hi\n4. commandrequest'
                 });
 	        break;
 	    case 'helpchem':
@@ -489,7 +546,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'List of Chemistry Commands:\n1. pai\n2. hda/HDA\n3. units\n4. CH4\n5. moles\n6. cal\n7. Element'
                 });
 	        break;
-
+	    case 'commandrequest':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'If you would like to request a command, please email jake.marchese1@gmail.com, or message him on discord VinallaXtract#6693, at  he will get back to you as soon as possible.'
+                });
+	        break;
 
 
 
@@ -597,6 +659,30 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		   message: 'Omae wa mou shindeiru\n\n\nn a n i ? !\n\n\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n\n\nhttps://i.ytimg.com/vi/ozyuwxalWO8/hqdefault.jpg'	
 		});
 		break;
+
+	     case 'findmylodge':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'A close freemason lodge is in Winchester, VA! Here is the link to Masonic Lodge #21\nhttp://www.winchesterhiram21.org/index.htm\n118 N Loudoun St, Winchester, VA 22601'	
+		});
+		break;
+
+	     case 'childrensprogram':
+		bot.sendMessage({
+                   to: channelID,	
+		   message: 'The Masonic Service Association of North America has many different childrens programs, include ones for daughters!\nhttp://www.msana.com/youth.asp\n These include The Order of DeMolay, The International Order of Rainbow for Girls\nThe International Order of Jobs Daughters'	
+		});
+		break;
+
+
+
+
+
+
+
+
+
+
 
  	     default :
 		bot.sendMessage({
