@@ -453,60 +453,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
 
 
-	/*  Secret Module   */
-	/* Credit goes to   */
-	/* Jake Marchese    */
-
-
-	     case 'wdjl':
-		bot.sendMessage({
-                   to: channelID,	
-		   message: 'This is the second level of the secret quest. Things only get harder from here. The clue for this next command is as follows, ACRONYM IS THE COMMAND'
-			
-		});
-		break;
-	     case 'whodoesjakelike':
-		bot.sendMessage({
-                   to: channelID,	
-		   message: 'Now you know the object of this mission, this is a guarded secret, be prepaired to use your brain to figure this out. Next clue is 2+2=4, 4-1=3 + 2nd command'
-			
-		});
-		break;
-	     case 'quickmaffswdjl':
-		bot.sendMessage({
-                   to: channelID,	
-		   message: 'First key is i. Next clue is "all in c" + 2nd command'
-			
-		});
-		break;
-	     case 'allstarwdjl':
-		bot.sendMessage({
-                   to: channelID,	
-		   message: 'Second key is r. Next clue is "are two special letters, infact it may even be a word" + 2nd command'
-			
-		});
-		break;
-	     case 'towdjl':
-		bot.sendMessage({
-                   to: channelID,	
-		   message: 'Third key is to. You have collected the keys, so now you must assemble them into the answer. These keys answer a questions which you have asked long ago. It may be in plain sight.'
-			
-		});
-		break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	/* FUNCTION MODULE  */
 	/* Credit goes to   */
